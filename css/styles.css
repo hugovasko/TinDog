@@ -1,1 +1,18 @@
 /* Some code is written here */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap');
+
+.container-fluid{
+    padding: 2% 12%;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+#title h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
