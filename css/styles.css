@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800;900&family=Ubuntu&display=swap');
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -56,4 +56,32 @@ body{
     width: 60%;
     
     transform: rotate(25deg);
+}
+
+/* Features */
+
+.features-column{
+    text-align: center;
+    margin: 7% 0 7% 0;
+}
+
+.features-column i{
+    color: #ef8172;
+    font-size: 3.5rem;
+    padding-bottom: 4%;
+}
+
+.features-column i:hover{
+    /* cursor: pointer; */
+    color: #ff4c68;
+}
+
+.features-column h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.features-column p{
+    color: #8f8f8f;
 }
