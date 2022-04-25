@@ -58,7 +58,7 @@ body{
     transform: rotate(25deg);
 }
 
-/* Features */
+/* Features Section*/
 
 .features-column{
     text-align: center;
@@ -68,7 +68,7 @@ body{
 .features-column i{
     color: #ef8172;
     font-size: 3.5rem;
-    padding-bottom: 4%;
+    margin-bottom: 4%;
 }
 
 .features-column i:hover{
