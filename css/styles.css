@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800;900&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Ubuntu&display=swap');
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -44,6 +44,14 @@ body{
     font-weight: 400;
 }
 
+/* Title Content */
+
+.title-content{
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+
 /* Download Buttons */
 
 .download-button{
@@ -53,12 +61,18 @@ body{
 /* Title Image */
 
 .title-image{
-    width: 60%;
-    
+    width: 21%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 22%;
 }
 
 /* Features Section*/
+
+#features{
+    position: relative;
+    background-color: #fff;
+}
 
 .features-column{
     text-align: center;
@@ -91,7 +105,6 @@ body{
     text-align: center;
     background-color: #ef8172;
     color: #fff;
-    
 }
 
 #testimonials h2{
@@ -111,6 +124,9 @@ body{
     margin: 20px;
 }
 
+
+/* Press Section */
+
 #press{
     text-align: center;
     background-color: #ef8172;
@@ -120,4 +136,20 @@ body{
 .press-logo{
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing{
+    text-align: center;
+}
+
+#pricing h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.pricing-column{
+    padding: 3% 2%;
 }
